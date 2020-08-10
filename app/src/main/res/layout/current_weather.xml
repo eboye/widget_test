@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:padding="@dimen/widget_margin">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:paddingTop="15dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/umbrella"
+        android:contentDescription="@string/icon"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:background="#0000"
+        android:contentDescription="@string/city"
+        android:text="@string/city"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/condition"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0000"
+        android:contentDescription="@string/condition"
+        android:text="@string/condition"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="120dp"
+        android:layout_centerHorizontal="true"
+        android:background="#0000"
+        android:contentDescription="@string/temperature"
+        android:text="@string/temperature"
+        android:textColor="#ffffff"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
